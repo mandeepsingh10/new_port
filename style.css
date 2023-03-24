@@ -33,7 +33,8 @@ nav{
 }
 
 .logo{
-    width: 200px;
+    width: 300px;
+    margin-left: -50px;
 }
 
 nav ul li{
@@ -60,6 +61,13 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
+}
+.header-main{
+    font-size: 70px;
+    font-weight: 500;
+    position: relative;
+    top: 180px;
+    margin-left: -10px;
 }
 .header-text{
     color: #fff;
@@ -385,6 +393,16 @@ nav .fas{
     .header-text{
         margin-top: 100%;
         font-size: 16px;
+    }
+    .logo{
+        width: 200px;
+        margin-left: -48px;
+    }
+    .header-main{
+        position: relative;
+        top: 310px;
+        font-size: 30px;
+        margin-left: -12px;
     }
     .header-text p{
         position: relative;
