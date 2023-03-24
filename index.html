@@ -156,7 +156,7 @@
                 <a href="assets/mandeepsingh-resume.pdf" target="_blank" download class="btn btn2">Download Resume</a>
             </div>
             <div class="contact-right">
-                <form action="https://formsubmit.co/mandeepsingh1018@gmail.com" method="POST">
+                <form name="myForm">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="text" name="Name" placeholder="Name" required>
                     <input type="email" name="Email" placeholder="Email Address" required>
@@ -203,10 +203,9 @@
     }
 
 </script>
-<!--
 <script>
-    const scriptURL = '< add you own link here >' // add your own app script link here
-    const form = document.forms['submit-to-google-sheet']
+    const scriptURL = 'https://formsubmit.co/mandeepsingh1018@gmail.com' // add your own app script link here
+    const form = document.forms['myForm']
     const msg = document.getElementById("msg")
   
     form.addEventListener('submit', e => {
@@ -222,6 +221,5 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
-  -->
 </body>
 </html>
