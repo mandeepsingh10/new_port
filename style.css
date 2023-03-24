@@ -399,7 +399,7 @@ nav .fas{
         margin-left: -48px;
     }
     .header-main{
-        position: relative;
+        position: absolute;
         top: 310px;
         font-size: 30px;
         margin-left: -12px;
