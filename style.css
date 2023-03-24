@@ -387,10 +387,14 @@ nav .fas{
         font-size: 16px;
     }
     .header-text p{
-        font-size: 30px;
+        position: relative;
+        top: 60px;
+        font-size: 40px;
+        margin-left: -10px; 
     }
     .header-text h1{
         font-size: 50px;
+        
     }
     .header-text h3{
         font-size: 14px;
